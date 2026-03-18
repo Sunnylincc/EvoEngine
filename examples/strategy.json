@@ -1,0 +1,12 @@
+{
+  "objective": "Continuously improve execution quality for a simple trading-research workflow",
+  "constraints": [
+    "Operate locally-first and avoid destructive actions",
+    "Log every major step"
+  ],
+  "successCriteria": [
+    "Produce tool outputs each loop",
+    "Store lessons that alter future behavior"
+  ],
+  "tools": ["web-fetch", "file-write", "trading-sim"]
+}

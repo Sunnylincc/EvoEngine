@@ -1,0 +1,13 @@
+{
+  "projectName": "EvoEngine",
+  "strategyPath": "examples/strategy.json",
+  "model": {
+    "provider": "mock",
+    "name": "gpt-4.1-mini",
+    "temperature": 0.2
+  },
+  "runtime": {
+    "maxIterations": 5,
+    "loopDelayMs": 250
+  }
+}
